@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    background-color: rgb(98, 148, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+}
+
+.botonUsuario{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(187, 197, 255);
+}
+
+.botonUsuario:hover{
+    color: white;
+    background-color: rgb(5, 83, 253);
+}
