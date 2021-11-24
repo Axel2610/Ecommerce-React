@@ -17,15 +17,17 @@ export const stock =[
         name:'Intel CloudBook',
         price: 53000,
         desc: 'La Cloudbook eNova NB142A-W10H posee: Una pantalla de 14.1" con resolución 1366 x 768 HD - Procesador Intel Celeron N3350 - Memoria RAM de 4 GM y Disco de 64 GB - Cámara Frontal - Sistema operativo Windows 10 - Wi-Fi - Bluetooth.',
+        minDesc:'Pantalla de 14" HD, Procesador: Intel Celeron N3350, RAM: 4gb, Almacenamiento: 64gb',
         img: notebook1,
         stock: 10,
-        categoy: "notebook"
+        category: "notebook"
     },
     {
         id: 2,
         name:'HP 14',
         price: 82000,
         desc: 'Diseño delgado y ultra portable para mantenerte conectado y con todas las tareas bajo control. Con batería duradera y pantalla de borde delgado la HP Laptop es tu compañera perfecta.',
+        minDesc:'Pantalla de 14" HD, Procesador: Intel Core I5 10210U, RAM: 8gb, Almacenamiento: 256gb SSD',
         img: notebook2,
         stock: 10,
         category: "notebook"
@@ -35,6 +37,7 @@ export const stock =[
         name:'Asus X515',
         price: 78000,
         desc: ' Notebook Asus X515 Intel Core i3 4gb Ssd 256gb 15,6 Full Hd Ya sea para trabajar o jugar, el ASUS X515 es el computador portátil que ofrece un potente rendimiento y efectos visuales envolventes.',
+        minDesc:'Pantalla de 15,6" FHD, Procesador: Intel Core I3 10100U, RAM: 4gb, Almacenamiento: 256gb SSD',
         img: notebook3,
         stock: 10,
         category: "notebook"
@@ -44,6 +47,7 @@ export const stock =[
         name:'HP 15',
         price: 13000,
         desc: 'Manténgase concentrado y productivo con la ayuda de una computadora portátil HP 15-dw3025od. El generoso disco duro de 2TB le brinda mucho espacio para almacenar asignaciones, fotos, juegos, música y mucho más.',
+        minDesc:'Pantalla de 15.6" FHD, Procesador: Intel Core I7 10510U, RAM: 8gb, Almacenamiento: 512gb SSD',
         img: notebook4,
         stock: 10,
         category: "notebook"
@@ -53,6 +57,7 @@ export const stock =[
         name:'Lenovo V130',
         price: 63000,
         desc: 'La computadora portátil V130 de 15.6 " ofrece un gran rendimiento en una cubierta estampada y texturizada que muestra un estilo moderno. Un diseño simple y limpio presenta un panel táctil grande de una pieza.',
+        minDesc:'Pantalla de 15.6" FHD, Procesador: Intel Core I5 10510U, RAM: 8gb, Almacenamiento: 256gb SSD',
         img: notebook5,
         stock: 10,
         category: "notebook"
@@ -62,6 +67,7 @@ export const stock =[
         name:'HP 500',
         price: 12000,
         desc: 'Los ultraportátiles auriculares Bluetooth® 5 ofrecen una experiencia auditiva excepcional. Diseñado para acompañarte en tus días más ajetreados gracias a las 20 horas de duración de la batería.',
+        minDesc:'Bateria de hasta 20hs de duracion y carga rapida, Cancelacion de ruidos, Bluetooth 5.0',
         img: auricular1,
         stock: 10,
         category: "auricular"
@@ -71,6 +77,7 @@ export const stock =[
         name:'Hyper X Cloud',
         price: 18900,
         desc: 'Nuevo diseño de caja completa de control de audio USB, Tarjeta de sonido de gran calidad que ofrece un audio excelente, Control de sonido envolvente virtual 7.1, Control independiente del volumen del micrófono y de los auriculares, Interruptor deslizante para silenciar el micrófono, LED retroiluminado',
+        minDesc:'Sonido envolvente 7.1 de HyperX, Micrófono con cancelación de ruido extraíble, Compatibilidad multiplataforma',
         img: auricular2,
         stock: 10,
         category: "auricular"
@@ -80,6 +87,7 @@ export const stock =[
         name:'Phillips TAH4205',
         price: 7000,
         desc: 'Seguí disfrutando de tus sonidos con graves más intensos. Estos auriculares supraurales inalámbricos cuentan con un botón de refuerzo de GRAVES, para que podás subir el volumen al máximo cuando quieras. Obtenés hasta 29 horas de tiempo de reproducción, carga rápida y colores mate elegantes para elegir.',
+        minDesc:'29 horas de tiempo de reproducción. Carga por USB-C, Botón de refuerzo de graves. Graves más potentes con un toque',
         img: auricular3,
         stock: 10,
         category: "auricular"
@@ -89,6 +97,7 @@ export const stock =[
         name:'Monitor Phillips 27',
         price: 32000,
         desc: 'La pantalla VA entrega imágenes asombrosas con un amplio ángulo de visión. Ajustes predeterminados SmartImage para optimizar la configuración de imagen fácilmente. SmartContrast para obtener increíbles detalles en negro. Experiencias de acción sencillas y fluidas con la tecnología Adaptive-Sync. Menos cansancio ocular con la tecnología sin parpadeo.',
+        minDesc:'1920 x 1080 (Full HD), 27" (68,6 cm), Línea V',
         img: monitor1,
         stock: 10,
         category: "accesorio"
@@ -98,6 +107,7 @@ export const stock =[
         name:'Teclado Kumara K552',
         price: 7000,
         desc: 'La gran calidad del Redragon Kumara K552, y su precio económico lo vuelven un atractivo ideal para que te diviertas frente a la pantalla. Su ergonomía, su base antidelizante y su rápido tiempo de respuesta permite que tus juegos favoritos se sientan más cerca que nunca, al alcance de tus manos.',
+        minDesc:'Teclas de doble inyeccion, Switches Redragon Blue, RGB',
         img: teclado1,
         stock: 10,
         category: "accesorio"
@@ -107,6 +117,7 @@ export const stock =[
         name:'Teclado Logitech G Pro',
         price: 12000,
         desc: 'Teclas optimizadas para los profesionales - El diseño PRO X de eficacia probada en torneos, ahora con interruptores GX profesionales intercambiables. Descubre cómo es el teclado mecánico para gaming personalizable, diseñado para los mejores deportistas de eSports del mundo. Interruptores mecánicos GX avanzados, diseñados para rendimiento, capacidad de respuesta y durabilidad demostrados. Personaliza las sensaciones de tu teclado PRO X con tres variantes de interruptores extraíbles.',
+        minDesc:'10ms mas rapido, Interruptores mas rapidos, luminosos y silenciosos',
         img: teclado2,
         stock: 10,
         category: "accesorio"
@@ -116,6 +127,7 @@ export const stock =[
         name:'Mouse Genius',
         price: 1000,
         desc: 'Una nueva identidad con un toque suave de diseño metálico para una experiencia visual. Alto rendimiento y con una precisión de hasta 1000 DPI. Plug-n-play con puerto USB. Funciona con Windows 10 y Mac',
+        minDesc:'Resolución del sensor: 1000 dpi, Tipo de sensor: Óptico',
         img: mouse1,
         stock: 10,
         category: "accesorio"

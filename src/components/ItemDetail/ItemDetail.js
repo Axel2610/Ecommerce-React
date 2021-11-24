@@ -32,15 +32,15 @@ export const ItemDetail = ({id, name, img, desc, price, category, stock}) => {
     }
 
     return (
-        <div>
-            <h2>{name}</h2>
-            <img src={img} alt={name}/>
-            <p>{desc}</p>
-            <p>Precio: ${price}</p>
+        <div className="container-fluid row align-items-center">
+            <h2 className="text-center">{name}</h2>
+            <img src={img} alt={name} className="col-7"/>
+            <p className="col-5"> <b>Caracteristicas:</b> <br/><br/><br/> {desc}</p>
+            <h5 className="text-center">Precio: ${price}</h5>
 
             {
                 !agregado 
-                ?   <ItemCount 
+                ?   <ItemCount className="justify-content-center"
                         max={stock} 
                         cantidad={cantidad} 
                         setCantidad={setCantidad}
