@@ -13,7 +13,7 @@ export const ItemCount = ( {max, setCantidad, cantidad, onAdd} ) => {
     }
 
     return (
-        <div className="my-3">
+        <div className="text-center my-3">
             <button className="btn btn-outline-primary" onClick={handleRestar}>
                 -
             </button>

@@ -9,14 +9,14 @@ export const NavBar = () => {
     
     return (
     
-    <header>
+    <header className="container-fluid">
         <Link to="/"><BsShop className="iconoHeader"/></Link>
 
         <nav>
             <ul>
-                <li><Link to="productos/notebook">Notebook</Link></li>
-                <li><Link to="productos/auricular">Auriculares</Link></li>
-                <li><Link to="productos/accesorio">Accesorios</Link></li>
+                <li><Link to="productos/notebook" className="links-nav">Notebook</Link></li>
+                <li><Link to="productos/auricular" className="links-nav">Auriculares</Link></li>
+                <li><Link to="productos/accesorio" className="links-nav">Accesorios</Link></li>
             </ul>
         </nav>
         
