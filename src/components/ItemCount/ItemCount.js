@@ -14,16 +14,25 @@ export const ItemCount = ( {max, setCantidad, cantidad, onAdd} ) => {
 
     return (
         <div className="text-center my-3">
-            <button className="btn btn-outline-primary" onClick={handleRestar}>
-                -
+            <button 
+                className={`btn ${cantidad === 0 ? 'btn-outline-danger' : 'btn-outline-primary'}`}
+                onClick={handleRestar}>
+                    -
             </button>
+
             <span className="mx-2">{cantidad}</span>
-            <button className="btn btn-primary" onClick={handleSumar}>
-                +
+
+            <button
+                className={`btn ${cantidad === max ? 'btn-danger' : 'btn-primary'}`}
+                onClick={handleSumar}>
+                    +
             </button>
             <br/>
-            <button className="btn btn-success my-2" onClick={onAdd}>
-                Agregar al carrito
+
+            <button
+                className="btn btn-success my-2"
+                onClick={onAdd}>
+                    Agregar al carrito
             </button>
         </div>
     )

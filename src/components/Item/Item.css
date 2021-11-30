@@ -1,0 +1,19 @@
+.boton{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.boton:hover{
+    color: rgb(189, 189, 189);
+}
+
+.carta{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+.carta:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
