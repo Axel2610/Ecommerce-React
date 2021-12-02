@@ -1,3 +1,5 @@
-body{
-    background-color: rgba(212, 212, 212, 0.336);
+.tituloPrincipal{
+    font-size: 2rem;
+    color: rgb(71, 120, 255);
+    margin: 20px;
 }
