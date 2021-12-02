@@ -20,7 +20,15 @@ li{
     font-size: 1rem;
 }
 
+.links-nav:hover{
+    color: burlywood;
+}
+
 .iconoHeader{
     font-size: 3rem;
     color: white;
+}
+
+.iconoHeader:hover{
+    color: burlywood;
 }

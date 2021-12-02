@@ -4,6 +4,10 @@
 
 }
 
+.cartWidget:hover{
+    color: burlywood;
+}
+
 .widget {
     visibility: visible;
     opacity: 1;
