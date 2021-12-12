@@ -1,4 +1,32 @@
-.cardWidget{
+.cartWidget{
     color: white;
     font-size: 2rem;
+
+}
+
+.cartWidget:hover{
+    color: burlywood;
+}
+
+.widget {
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.spanCarrito{
+    margin-left: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none !important;
 }
