@@ -4,7 +4,9 @@
 }
 
 .boton:hover{
-    color: burlywood;
+    background-color: grey;
+    color: black;
+    transition: all 0.5s;
 }
 
 .carta{
@@ -15,5 +17,6 @@
 
 .carta:hover{
     transform: scale(1.05);
-    transition: 1s;
+    transition: all 1s;
+    box-shadow: 5px 5px grey;
 }

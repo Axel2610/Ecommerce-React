@@ -5,7 +5,7 @@ import { CartItem } from './CartItem'
 
 export const CartView = () => {
 
-    const {carrito, vaciarCarrito} = useContext(CartContext)
+    const {carrito, vaciarCarrito, totalCompra} = useContext(CartContext)
 
     return (
         <div className="container my-5">
@@ -20,10 +20,13 @@ export const CartView = () => {
                             }
                         </section>
                         <hr/>
+                         <h4 className='text-end'>Total compra: ${totalCompra()}</h4>
+                        <hr/>
                         <div>
                             <button className="btn btn-danger" onClick={vaciarCarrito}>Vaciar carrito</button>
-                            <button className="btn btn-success mx-2">Terminar mi compra</button>
+                            <Link to='/checkout' className="btn btn-success mx-2">Terminar mi compra</Link >
                         </div>
+                       
                     </>
                 
                 :   <>
