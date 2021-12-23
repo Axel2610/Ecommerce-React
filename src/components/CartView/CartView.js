@@ -32,7 +32,7 @@ export const CartView = () => {
                 :   <>
                         <h2>No agregaste items al carrito aún</h2>
                         <hr/>
-                        <Link to="/" className="btn btn-primary">Volver</Link>
+                        <Link to="/" className="btn btn-dark">Volver</Link>
                     </>
             }
         </div>
